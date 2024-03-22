@@ -80,7 +80,7 @@ namespace HuRISQRGenerator
 
                 else if (_compid == 17)
                 {
-                    txtColor.Text = "#970908";
+                    txtColor.Text = "#000000";
                 }
 
                 var color = System.Drawing.ColorTranslator.FromHtml(txtColor.Text);
@@ -132,7 +132,7 @@ namespace HuRISQRGenerator
                 else if (_compid == 17) //apw id
                 {
                     Graphics g = Graphics.FromImage(bitmap);
-                    Bitmap logo = new Bitmap($"{Application.StartupPath}/APWLogo.png");
+                    Bitmap logo = new Bitmap($"{Application.StartupPath}/APWTechLogo.png");
                     g.DrawImage(logo, new Point(100, 100));
                 }
 
